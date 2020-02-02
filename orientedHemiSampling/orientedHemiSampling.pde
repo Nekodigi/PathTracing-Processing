@@ -1,6 +1,5 @@
 float scale = 1000;
 float angle = 0;
-float epsilon = 0.0001;
 ArrayList<PVector> ps = new ArrayList<PVector>();
 
 void setup(){
