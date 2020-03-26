@@ -1,3 +1,4 @@
+//this is test code!
 int pixelSize = 20;
 float worldScale = 1;
 int spp = 10;
