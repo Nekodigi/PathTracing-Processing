@@ -16,7 +16,7 @@ PImage bgImg;
 void setup(){
   //size(800, 800);
   fullScreen(P3D);
-  bgImg = loadImage("Free Panorama in Park.jpg");
+  bgImg = loadImage("sky pd.png");
   cam = new Camera(eye, focal, view_distance, up, width, height, spp, path_tracer);
   BxDF gold_diff = new Lambertian(new Color(1.0, 0.8, 0.3));
   BxDF ground_diff = new Lambertian(new Color(1, 1, 1));
